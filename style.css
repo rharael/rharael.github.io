@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+.resume-contents {
+    min-height: 100vh;
+    width: 80%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+
+}
+
+.left-section {
+    grid-column: span 2;
+    height: 100%;
+    background-color: #00204A;
+
+}
+
+.right-section {
+    grid-column: span 5;
+    height: 100%;
+    background-color: #4B6982;
+    border-radius: 0px 60px 0px 0px;
+    border-left: 3px solid #258de1;
+
+}
+
+.left-section-contents {
+    padding: 2rem 2rem;
+
+}
+
+.profile {
+    width: 100%;
+    border-bottom: 2px solid #eeeeee;
+}
+
+.profile .profile-image {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.name {
+    color: #D6DBDF;
+    font-size: 25px;
+    letter-spacing: px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.profession {
+    color: #FDB44B;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.left-title {
+    color: #FDB44B;
+    font-size: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+
+
+}
+
+ul {
+    padding-top: 1.5rem;
+    list-style: none;
+}
+
+.contact-info ul li,
+.references ul li {
+    padding: .4rem 0;
+    color: #F1F8FD;
+    list-style: none;
+}
+
+.contact-info ul li i,
+.references ul li i {
+    padding: .4rem 0;
+    color: #F1F8FD;
+    list-style: none;
+}
+
+.skills ul {
+    padding: .4rem 0;
+    color: #F1F8FD;
+    list-style: none;
+    line-height: 25px;
+
+}
+
+.skills ul li p {
+    padding: .4rem 0;
+    color: #F1F8FD;
+}
+
+.right-section-contents {
+    padding: 2rem 2rem;
+}
+
+.right-title {
+    color: #70C6C7;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.gap {
+    padding-bottom: 2rem;
+}
+
+.about-me-contents {
+    font-size: 16px;
+    color: #F1F8FD;
+    margin-top: 20px;
+}
